@@ -1,0 +1,144 @@
+
+/* header */
+.nit-logo{
+    width: 97px;
+    height: 94px;
+    float:left;
+    margin: 1rem;
+    height: 10rem;
+}
+.nit-text{font-size: 23px;padding: 3px }
+h6.nit-text{font-size: 18px; margin: 2.5rem 0;}
+
+/* header ends here*/
+
+/* scrolling text */
+.important-information{
+    display: block;
+    background: #222222;
+
+}
+.important-information-text{
+ color:white;
+ text-decoration: none;   
+}
+.important-information-text:hover{
+    opacity: 50%;
+    text-decoration: none;
+    color: white;
+}
+.important-information-text:visited{
+    color:white;
+    text-decoration: none;    
+   }
+/* scrolling text ends */
+
+
+ul.nav-bar-level-1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background:#4778A1;
+}
+
+ul.nav-bar-level-1 li{
+    display: inline-block;
+    padding: 5px;
+    align-content: center;
+}
+
+ul.nav-bar-level-1 li a{
+    display: block;
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    float: left;
+    font-weight: bold;
+}
+
+
+/* responsive design for breakpoints 990px  650px 500px */
+/* When resolution <= 990px, */
+@media screen and (max-width: 990px) {
+    .nit-text { display: inline-block; vertical-align: middle; }
+    h2.nit-text{
+        font-size:23px;
+        font-weight: bold;
+        color:#000;
+        margin-top:25px;
+    }
+    h6.nit-text{font-size: 20px; display: block; margin:auto 0}
+
+    .nav-bar-full .nav-bar-level-1 > li > a {
+        font-size: 1.5vw;
+       padding: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nit-text { display: inline-block; vertical-align: middle; }
+    h2.nit-text{
+        font-size:23px;
+        font-weight: bold;
+        color:#000;
+        margin-top:25px;
+    }
+    h6.nit-text{font-size: 20px; display: block; margin:auto 0}
+
+    .nav-bar-full .nav-bar-level-1 > li  {
+        display: none;
+    }
+}
+
+/* When resolution <= 650px, */
+@media screen and (max-width: 650px) {
+    .nit-text { display: inline-block;vertical-align: middle; }
+    h2.nit-text{
+        font-size:15px;
+        font-weight: bold;
+        color:#000;
+        margin-top:25px;
+    }
+    h6.nit-text{font-size: 13px; display: block; margin:auto 0}
+
+    .nav-bar-full .nav-bar-level-1 > li {
+       display: none;
+    }
+}
+}
+
+/* When resolution <= 500px, */
+@media screen and (max-width: 500px) {
+    .nit-text { display: inline-block; vertical-align: middle;text-align: left;}
+    h2.nit-text{
+        font-size:9px;
+        font-weight: bold;
+        color:#000;
+        margin-top:25px;
+    }
+    h6.nit-text{font-size: 8px; display: block; margin:auto 0}
+
+    .nav-bar-full .nav-bar-level-1 > li {
+       display: none;
+    }
+}
+}
+
+@media (max-width: 1225px) {
+
+    .nav-bar-full .nav-bar-level-1 > li {
+        padding: 0 4px 0 3px;
+    }
+  
+  }
+  
+  @media (min-width: 1225px) {
+  
+    .nav-bar-full .nav-bar-level-1 > li {
+        padding: 0 20px 0 20px;
+    }
+  
+  }
