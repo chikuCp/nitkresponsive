@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="javascript/all.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,49 +11,35 @@
     <title>Document</title>
 </head>
 <body>
+   
 <!-- header -->
-<div class="mobile-design">
-    <div class="header">
-        <h1 class="nit-kkr">National Institute of technology kurukshetra</h1>
-        <h3 class="nit-text">Institution of national importance</h3>
-        <hr>
-    </div>
-
-
-    <!-- overlay navigation menu -->
-
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-
-    <div id="myNav" class="overlay">
-       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-       <div class="overlay-content">
-       <a href="">Institute</a>
-       <a href="">Academic</a>
-       <a href="">Administration</a>
-       <a href="">Departments</a>
-       <a href="">Sections</a>
-       <a href="">Training and Placement</a>
-       <a href="">Student Activities</a>
-       </div>
-     </div>
-
-
-
-
-
-    <button class="important-links collapsible">Important Links</button>
-        
-        <ul class="imp-links content">
-            <li><a href="#">Search</a></li>
-            <li><a href="#">Notification</a></li>
-            <li><a href="#">Tenders</a></li>
-            <li><a href="#">RTI</a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Research & Development</a></li>
-            <li><a href="#">IDY</a></li>
-            <li><a href="#">Online Fee Payment</a></li>
-            <li><a href="#">Institute Magazine & Newsletter</a></li>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html"> <img src="images/logo.png" alt=""> </a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="institute.html">Institute</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="#">Administration</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Sections</a></li>
+            <li><a href="#">Training and Placement</a></li>
+            <li><a href="#">Student Activities</a></li>
         </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
     
 
     <!-- scrolling text -->
@@ -60,16 +47,15 @@
         <a href="#"  target="_blank" class="important-information-text">Important Information will Scroll Here</a>            	
 </marquee>
 <!-- scrolling text ends -->
-</div>
+
 
 <!-- photos -->
-<div class="mobile-conatiner">
-        <div class="mySlideShow">
-            <img src="images/download.jpeg" alt="love" class="mySlides">
-            <img src="images/download (4).jpeg" alt="love" class="mySlides">
-            <img src="images/download (2).jpeg" alt="love" class="mySlides">
-            <img src="images/logo.png" alt="love" class="mySlides">
-</div>
+    <div class="mySlideShow">
+        <img src="images/download.jpeg" alt="love" class="mySlides">
+        <img src="images/download (4).jpeg" alt="love" class="mySlides">
+        <img src="images/download (2).jpeg" alt="love" class="mySlides">
+        <img src="images/logo.png" alt="love" class="mySlides">
+    </div>
 
 
 <div class="row">
@@ -79,7 +65,7 @@
             <div class="panel-body"><a href="#">this is news item 2</a></div> 
             <div class="panel-body"><a href="#">this is news item 3</a></div> 
             <div class="panel-body"><a href="#">this is news item 4</a></div> 
-            <button type="button" class="btn btn-link">More</button>
+            <button type="button" class="btn-info">More</button>
     </div>
 
     <div class="col-xs-12 col-sm-4 panel panel-default">
@@ -88,7 +74,7 @@
             <div class="panel-body">Notification 2</div> 
             <div class="panel-body">Notification 3</div> 
             <div class="panel-body">Notification 4</div> 
-            <button type="button" class="btn btn-link">More</button>
+            <button type="button" class="btn-info">More</button>
     </div>
 
     <div class="col-xs-12 col-sm-4 panel panel-default">
@@ -97,19 +83,52 @@
             <div class="panel-body">Announcement 2</div> 
             <div class="panel-body">Announcement 3</div> 
             <div class="panel-body">Announcement 4</div> 
-            <button type="button" class="btn btn-link">More</button>
+            <button type="button" class="btn-info  ">More</button>
     </div>
 </div>
 
 <!-- footer -->
 
-
+<div class="footer">
+    <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Archive</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Forth Coming Events</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Resources</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Downloads</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Student Corner</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Important Links</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Vigilance Corner</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">PRO</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Event Calender</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Archive News</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Techspardha</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">TEQIP-II</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">JOBS @ NIT KKR</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Council Of NIT's</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">More @ NITKKR</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">NIRF</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Contact US</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">International Gita Mahotsav</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">Alumni Login</a></div>
+        <div class="col-xs-6 col-sm-4 col-lg-3"><a href="">User Login</a></div>
+    </div>
+    <hr>
+    <div class="social-icons">
+            <a href=""><i class="fab fa-facebook fa-fw"></i></a>
+            <a href=""><i class="fab fa-google-plus fa-fw"></i></a>
+            <a href=""><i class="fab fa-twitter fa-fw"></i></a>
+            <a href=""><i class="fab fa-youtube fa-fw"></i></a>
+    </div>
+</div>
 
 
     
 
     <script src="javascript/script.js"></script>
-    <script src="javascript/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

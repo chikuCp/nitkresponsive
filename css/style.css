@@ -106,7 +106,10 @@ h3.nit-text{
     top: 15px;
     right: 35px;
   }
-}.dropdown {
+}
+
+
+.dropdown {
     .dropdown-menu {
       transition: all 0.3s;
       max-height: 0;
