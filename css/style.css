@@ -151,3 +151,23 @@ h3.nit-text{
 }
 
 .btn-info{border-radius: 5px;}
+
+
+.hdr{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    vertical-align: center;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.lihdr:hover{
+    background: silver;
+    border-radius: 10px;    
+}
+
+.panel-default{
+    margin-top: 10px;
+    box-sizing: border-box;
+}
